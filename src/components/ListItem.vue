@@ -1,5 +1,5 @@
 <template lang="html">
-  <li v-on:mouseover="handleClick">{{beer.name}}</li>
+  <li v-on:click="handleClick">{{beer.name}}</li>
 
 </template>
 

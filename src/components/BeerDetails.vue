@@ -5,16 +5,27 @@
     <img :src="beer.image_url"
     alt="beer image" height=200 />
     <sub>{{beer.tagline}}</sub>
-    <button type="button" name="button"></button>
+    <div class="button">
+    <add-fav-button :beer='beer'></add-fav-button>
+  </div>
   </div>
 </template>
 
 <script>
+import AddFavButton from './AddFavButton.vue';
+
 export default {
   name: "beer-details",
-  props: ['beer']
+  props: ['beer'],
+
+  components: {
+    "add-fav-button": AddFavButton
+  }
 }
 </script>
 
 <style lang="css" scoped>
+.button {
+  margin: 10px 0;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Who's in the Doghouse</h1>
+    <h1>Who's in the Doghouse?</h1>
     <page-buttons></page-buttons>
     <div class="main-container">
 

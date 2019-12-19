@@ -82,7 +82,7 @@ components: {
 <style>
 .main-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .column{
   max-width: 350px;

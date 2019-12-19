@@ -1,5 +1,5 @@
 <template lang="html">
-  <div v-if="beer">
+  <div class="details" v-if="beer">
     <h3>{{beer.name}}</h3>
     <p>{{beer.description}}</p>
     <img :src="beer.image_url"
@@ -28,4 +28,6 @@ export default {
 .button {
   margin: 10px 0;
 }
+
+.details {}
 </style>

@@ -1,5 +1,6 @@
 <template lang="html">
 <div class="list-container">
+  <h3>Favorites</h3>
   <ul>
     <list-item v-for="(beer, index) in favoriteBeers" :beer="beer" :key="index"></list-item>
   </ul>

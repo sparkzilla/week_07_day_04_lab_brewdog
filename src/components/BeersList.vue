@@ -27,7 +27,7 @@ export default {
 
 ul {
   list-style-type: none;
-  padding: 10px 0 0 15px;
+  padding: 0 0 0 15px;
 
 }
 </style>

@@ -61,6 +61,11 @@ mounted(){
     this.currentPage = this.currentPage + number
     this.page();
   })
+  eventBus.$on('down-page', (number) => {
+    if (this.currentPage !== 1){
+    this.currentPage = this.currentPage + number
+      this.page()};
+  })
 
 },
 
